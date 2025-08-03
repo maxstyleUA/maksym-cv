@@ -6,58 +6,91 @@
     <title>Maksym Kashliatskyi — Fullstack Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
-<div class="max-w-3xl mx-auto p-6">
-    <h1 class="text-3xl font-bold mb-1">Maksym Kashliatskyi</h1>
-    <p class="text-gray-600 mb-4">Fullstack JavaScript Developer</p>
-    <div class="flex gap-4 text-sm text-blue-600 underline mb-6">
-        <a href="mailto:kashlyatsky@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/maksym-kashliatskyi-91602b217/">LinkedIn</a>
-        <a href="https://github.com/maxstyleUA">GitHub</a>
-    </div>
+<body class="bg-white text-gray-900 font-sans leading-relaxed antialiased">
 
-    <h2 class="text-xl font-semibold mt-6">Summary</h2>
-    <p>
-        Skilled Fullstack JavaScript Developer with 3+ years of experience in developing scalable SaaS platforms and tools using React, Next.js, Node.js, and AWS. Built multiple projects from scratch, supported production apps, and contributed to both frontend and backend development. Seeking middle-senior roles to contribute to impactful projects.
-    </p>
+<main class="max-w-3xl mx-auto px-6 py-10">
+    <!-- Header -->
+    <header class="mb-10">
+        <h1 class="text-4xl font-bold text-gray-800 mb-1">Maksym Kashliatskyi</h1>
+        <p class="text-lg text-gray-500 mb-3">Fullstack JavaScript Developer</p>
+        <div class="flex flex-wrap gap-4 text-sm text-teal-600">
+            <a href="mailto:kashlyatsky@gmail.com" class="hover:underline">kashlyatsky@gmail.com</a>
+            <a href="https://www.linkedin.com/in/maksym-kashliatskyi-91602b217/" class="hover:underline" target="_blank">LinkedIn</a>
+            <a href="https://github.com/maxstyleUA" class="hover:underline" target="_blank">GitHub</a>
+        </div>
+    </header>
 
-    <h2 class="text-xl font-semibold mt-6">Tech Stack</h2>
-    <ul class="list-disc ml-5">
-        <li><strong>Frontend:</strong> React, Redux, Redux Toolkit, Next.js, MUI, Bootstrap</li>
-        <li><strong>Backend:</strong> Node.js, Express, NestJS</li>
-        <li><strong>Databases:</strong> MongoDB, CockroachDB, DynamoDB</li>
-        <li><strong>Cloud:</strong> AWS (Lambda, S3, DynamoDB), Vercel, Serverless Framework</li>
-        <li><strong>Tools:</strong> Prisma, Mongoose, Git, ESLint, Prettier, Azure Boards, Auth0, Socket.io, Playwright, Jest</li>
-    </ul>
+    <!-- Summary -->
+    <section class="mb-8">
+        <h2 class="text-xl font-semibold text-gray-700 mb-2">Summary</h2>
+        <p class="text-gray-700">
+            Strong middle fullstack JavaScript developer with 3+ years of experience. Successfully developed and deployed SaaS and internal projects across multiple tech stacks, created multiple service instances for various clients. Passionate about scalable architecture and developer-friendly documentation.
+        </p>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-6">Experience</h2>
-    <div class="mt-2">
-        <p class="font-bold">Zup OÜ — Full Stack Developer</p>
-        <p class="text-sm text-gray-600">Nov 2023 – Present</p>
-        <ul class="list-disc ml-5 text-sm">
-            <li>Developed a pharma SaaS platform with React, Next.js, Prisma, CockroachDB</li>
-            <li>Maintained an Electron.js app and improved testing with Playwright and Jest</li>
-            <li>Refactored an eCommerce project and added order/shipping flow</li>
-            <li>Built a full-featured task manager with real-time socket communication</li>
+    <!-- Tech Stack -->
+    <section class="mb-8">
+        <h2 class="text-xl font-semibold text-gray-700 mb-2">🛠 Tech Stack</h2>
+        <ul class="list-disc ml-5 text-gray-700 space-y-1">
+            <li><strong>Frontend:</strong> React, Redux, Redux Toolkit, Next.js, MUI, Bootstrap</li>
+            <li><strong>Backend:</strong> Node.js, Express, NestJS</li>
+            <li><strong>Databases:</strong> MongoDB, CockroachDB, DynamoDB</li>
+            <li><strong>Cloud & Infra:</strong> AWS (Lambda, S3, DynamoDB), Vercel, Serverless Framework</li>
+            <li><strong>ORMs & Tools:</strong> Prisma, Mongoose</li>
+            <li><strong>Workflow:</strong> Git, Azure Boards, ESLint, Prettier</li>
+            <li><strong>Other:</strong> Auth0, Socket.io, Playwright, Jest</li>
         </ul>
-    </div>
-    <div class="mt-4">
-        <p class="font-bold">KeyUA — JavaScript Developer</p>
-        <p class="text-sm text-gray-600">Nov 2021 – Nov 2023</p>
-        <ul class="list-disc ml-5 text-sm">
-            <li>Created Trello-style list app with Vue, AWS Lambda, DynamoDB</li>
-            <li>Updated frontend for Django-based corporate site</li>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="mb-8">
+        <h2 class="text-xl font-semibold text-gray-700 mb-2">💼 Work Experience</h2>
+
+        <div class="mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Zup OÜ – Full Stack Developer</h3>
+            <p class="text-sm text-gray-500">Nov 2023 – Present</p>
+            <ul class="list-disc ml-5 text-gray-700 space-y-1 mt-2">
+                <li>Developed and maintained pharmaCo SaaS platform using React, Next.js, CockroachDB, Prisma, MUI, Vercel, Auth0.</li>
+                <li>Added real-time features, user authentication, and thorough test documentation.</li>
+                <li>Maintained Electron.js + React project with CouchDB — added features, fixed bugs, refactored legacy code, added Playwright + Jest tests.</li>
+                <li>Worked on web store with Next.js, Express, MongoDB, CMS; implemented invoices, product management, shipment integration.</li>
+                <li>Created a messenger + task tracker with full task management & socket.io real-time features using React, Next.js, NestJS, MongoDB.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-lg font-semibold text-gray-800">KeyUA – JavaScript Developer</h3>
+            <p class="text-sm text-gray-500">Nov 2021 – Nov 2023</p>
+            <ul class="list-disc ml-5 text-gray-700 space-y-1 mt-2">
+                <li>Developed Trello-like list-making app using Vue, Bootstrap, Serverless Framework on AWS stack (Lambda, S3, DynamoDB).</li>
+                <li>Maintained company website (Django-based) as Frontend Dev — updated styles, animations, and client-facing code.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="mb-8">
+        <h2 class="text-xl font-semibold text-gray-700 mb-2">🎓 Education</h2>
+        <ul class="list-disc ml-5 text-gray-700 space-y-1">
+            <li>Dnipro University of Technology — Bachelor’s in Software Engineering (2021–2024)</li>
+            <li>Pathon’s Welding College — Software Engineering Diploma (2017–2021)</li>
         </ul>
-    </div>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-6">Education</h2>
-    <ul class="list-disc ml-5">
-        <li>Dniprovskyi University of Technology — B.Sc. Software Engineering (2021–2024)</li>
-        <li>Pathon's Welding College — Software Engineering (2017–2021)</li>
-    </ul>
+    <!-- Languages -->
+    <section class="mb-8">
+        <h2 class="text-xl font-semibold text-gray-700 mb-2">🌐 Languages</h2>
+        <ul class="list-disc ml-5 text-gray-700 space-y-1">
+            <li>Ukrainian — Native</li>
+            <li>English — Intermediate</li>
+        </ul>
+    </section>
 
-    <h2 class="text-xl font-semibold mt-6">Languages</h2>
-    <p>Ukrainian (native), English (intermediate)</p>
-</div>
+    <!-- Footer -->
+    <footer class="mt-10 text-sm text-center text-gray-400">
+        &copy; 2025 Maksym Kashliatskyi
+    </footer>
+</main>
+
 </body>
 </html>
